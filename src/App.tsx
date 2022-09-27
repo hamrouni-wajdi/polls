@@ -6,6 +6,8 @@ import Navbar from './components/navbar/Navbar';
 import MyCarousel from './components/carousel/Carousel';
 import SecondCarousel from './components/carousel/SecondCarousel';
 import MyFooter from './components/footer/Footer';
+import MyCard from './components/card/Card';
+
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
       Hello world!
     </h1>
     
-    <MyFooter/>  
+    <div>
+    <MyCard/>
+    </div>
+    <MyFooter/> 
     </div>
   );
 }

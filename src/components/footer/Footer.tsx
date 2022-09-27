@@ -1,10 +1,10 @@
 import {Footer} from 'flowbite-react'
 import  fb from  '../../assets/fb.svg' 
-
+import footerStyles from './Footer.module.css'
 
 function MyFooter(){
     return(
-        <Footer container={true}>
+<Footer container={true}>
   <div className="w-full text-center">
     <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
       <Footer.Brand
