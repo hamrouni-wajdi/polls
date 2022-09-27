@@ -8,6 +8,8 @@ import SecondCarousel from './components/carousel/SecondCarousel';
 import MyFooter from './components/footer/Footer';
 import MyCard from './components/card/Card';
 import CardList from './components/cardList/CardList';
+import SearchBar from './components/searchBar/SearchBar';
+
 
 function App() {
   return (
@@ -17,7 +19,6 @@ function App() {
            <h1 className="text-4xl font-bold underline">
       Recommended for you
     </h1>
-    
     <div>
     <CardList/>
     </div>

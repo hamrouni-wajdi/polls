@@ -9,6 +9,7 @@ function SecondCarousel() {
       src="https://images.unsplash.com/photo-1466495227171-d05d7e3ac2b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80"
       alt="..."
     />
+    
     <img style={{"width":"100%", "height":"100%", }}
       src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
       alt="..."
