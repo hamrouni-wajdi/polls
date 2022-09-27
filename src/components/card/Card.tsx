@@ -1,6 +1,6 @@
 import { Card } from "flowbite-react";
 import "../../assets/01.jpg";
-
+import CardButtons from "../cardButtons/CardButtons";
 function MyCard() {
   return (
     <div className="max-w-sm" style={{ marginTop: "20px" }}>
@@ -12,6 +12,7 @@ function MyCard() {
           Here are the biggest enterprise technology acquisitions of 2021 so
           far, in reverse chronological order.
         </p>
+        <CardButtons/>
       </Card>
     </div>
   );
