@@ -13,7 +13,9 @@ function MyCard() {
           far, in reverse chronological order.
         </p>
         <CardButtons/>
+
       </Card>
+
     </div>
   );
 }
