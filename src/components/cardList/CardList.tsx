@@ -1,12 +1,12 @@
 import MyCard from "../card/Card";
 import CardListStyles from "./CardList.module.css"
-const arr = [1,2,3,4,5,6]
+import {cardprops} from "../card/Card"
 
-function CardList(){
+function CardList(cardlist:any){
     return (
         <div className={CardListStyles.cardListContainer}>
-        {arr.map(function(card, key){
-            return <MyCard key ={key}/>
+        {cardlist.cardlist.map(function(card:cardprops){
+            return <MyCard key={card.key} rating={card.rating} title={card.title} description={card.description} imgLink={card.imgLink}/>
         })}
         
         </div>
